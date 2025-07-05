@@ -1,0 +1,21 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "dev:bootstrap": "vite --config themes\bootstrap/vite.config.js",
+        "build:bootstrap": "vite build --config themes\bootstrap/vite.config.js",
+        "dev:noon": "vite --config themes\noon/vite.config.js",
+        "build:noon": "vite build --config themes\noon/vite.config.js"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.11.6",
+        "axios": "^1.1.2",
+        "bootstrap": "^5.2.3",
+        "laravel-vite-plugin": "^0.7.2",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "sass": "^1.56.1",
+        "vite": "^4.0.0"
+    }
+}
